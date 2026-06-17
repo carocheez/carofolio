@@ -7,19 +7,25 @@ export default function Home() {
     ...posts.filter(p => p.pinned),
     ...posts.filter(p => !p.pinned).reverse(),
   ]
-  const [selected, setSelected] = useState(sorted[0])
+  const [selected, setSelected] = useState(null)
+  const [mobileView, setMobileView] = useState('inbox')
+
+  const handleSelect = (post) => {
+    setSelected(post)
+    setMobileView('email')
+  }
 
   return (
     <div className="home-layout">
       {/* Left: inbox list */}
-      <div className="inbox-panel">
+      <div className={`inbox-panel ${mobileView === 'email' ? 'mobile-hidden' : ''}`}>
         <div className="inbox-header">inbox</div>
         <div className="inbox-list">
           {sorted.map((post) => (
             <div
               key={post.id}
               className={`email-row ${selected?.id === post.id ? 'email-row--active' : ''}`}
-              onClick={() => setSelected(post)}
+              onClick={() => handleSelect(post)}
             >
               <div className="email-row-main">
                 <span className="email-from">
@@ -36,10 +42,11 @@ export default function Home() {
       </div>
 
       {/* Right: email body */}
-      <div className="email-panel">
+      <div className={`email-panel ${mobileView === 'inbox' ? 'mobile-hidden' : ''}`}>
         {selected ? (
           <>
             <div className="email-panel-header">
+              <button className="back-btn" onClick={() => setMobileView('inbox')}>← back</button>
               <div className="email-meta-row">
                 <span className="email-meta-label">from:</span>
                 <span className="email-meta-value">{selected.from}</span>
