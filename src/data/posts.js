@@ -13,7 +13,7 @@ so excited to finally have a space of my own on the internet. this is where i'll
 stay tuned for more posts soon :)
 
 xo, carolyn`,
-    photos: ['/src/ariana-photos/IMG_1612.jpg'],
+    photos: ['/ariana-photos/IMG_1612.jpg'],
   },
   {
     id: 2,
@@ -87,12 +87,12 @@ if you have any pattern recommendations please send them my way 🐸`,
     
     the concert was amazing. ariana's vocals are unmatched. we knew this.`,
     photos: [
-      '/src/ariana-photos/IMG_1506.JPG',
-      '/src/ariana-photos/IMG_1527.JPG',
-      '/src/ariana-photos/IMG_1606.jpg',
-      '/src/ariana-photos/IMG_1611.jpg',
-      '/src/ariana-photos/IMG_1612.jpg',
-      '/src/ariana-photos/IMG_1616.jpg',
+      '/ariana-photos/IMG_1506.JPG',
+      '/ariana-photos/IMG_1527.JPG',
+      '/ariana-photos/IMG_1606.jpg',
+      '/ariana-photos/IMG_1611.jpg',
+      '/ariana-photos/IMG_1612.jpg',
+      '/ariana-photos/IMG_1616.jpg',
     ],
   },
   {
@@ -106,12 +106,12 @@ if you have any pattern recommendations please send them my way 🐸`,
     we all had a good time! my friend iris did the beautiful hand-lettering on the menu
     and the pastry display. here are some highlights! `,
     photos: [
-      '/src/photos/IMG_1075.JPG',
-      '/src/photos/IMG_1101.JPG',
-      '/src/photos/IMG_1109.JPG',
-      '/src/photos/IMG_2971.JPG',
-      '/src/photos/IMG_3308.JPG',
-      '/src/photos/IMG_3312.JPG',
+      '/photos/IMG_1075.JPG',
+      '/photos/IMG_1101.JPG',
+      '/photos/IMG_1109.JPG',
+      '/photos/IMG_2971.JPG',
+      '/photos/IMG_3308.JPG',
+      '/photos/IMG_3312.JPG',
     ],
   }
 ]
