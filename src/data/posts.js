@@ -113,5 +113,15 @@ if you have any pattern recommendations please send them my way 🐸`,
       '/photos/IMG_3308.JPG',
       '/photos/IMG_3312.JPG',
     ],
+  },
+  {
+    id: 8,
+    from: 'carolyn',
+    subject: "mini life update",
+    preview: 'run, europe!',
+    date: 'october 27',
+    body: `hello everyone! in the past few months, i've been so busy!
+    i turned 25, ran my half marathon, and went on a cruise along the danube river.
+    I visited hungary, austria, germany, slovakia, and czechia. what a fun time! `,
   }
 ]
